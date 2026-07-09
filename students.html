@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Students — F. Khan Lab</title>
+<meta name="description" content="Current and former research students of Dr. Ferdous Khan's lab, Department of Pharmaceutical Sciences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-mark"><strong>F. Khan Lab</strong> · Dept. of Pharmaceutical Sciences</div>
+    <nav class="masthead-nav">
+      <a href="index.html">Home</a>
+      <a href="students.html" class="active">Students</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="hero" style="padding-top:44px; padding-bottom:28px;">
+    <p class="eyebrow">Roster</p>
+    <h1 style="font-size: clamp(1.8rem, 4vw, 2.6rem);">Research students</h1>
+    <p class="role-line">
+      Every student who has completed or is currently pursuing research
+      in the lab. If you're confirming a name from a recommendation
+      letter or CV, find them below and open their verification link.
+    </p>
+  </section>
+
+  <section class="block" style="border-bottom:none; padding-top:30px;">
+    <div class="roster-controls">
+      <input type="text" id="search" placeholder="Search by name or project…" autocomplete="off">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="current">Current</button>
+      <button class="filter-btn" data-filter="alumni">Alumni</button>
+    </div>
+
+    <div class="roster-list" id="roster"></div>
+    <p class="empty-state" id="empty" style="display:none;">No students match your search.</p>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>[email protected]</span>
+    <span>Department of Pharmaceutical Sciences</span>
+  </div>
+</footer>
+
+<script src="js/students-data.js"></script>
+<script src="js/roster.js"></script>
+</body>
+</html>

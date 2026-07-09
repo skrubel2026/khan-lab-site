@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verification Record — F. Khan Lab</title>
+<meta name="description" content="Verify a student's research record with the F. Khan Lab, Department of Pharmaceutical Sciences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-mark"><strong>F. Khan Lab</strong> · Dept. of Pharmaceutical Sciences</div>
+    <nav class="masthead-nav">
+      <a href="index.html">Home</a>
+      <a href="students.html">Students</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+  </div>
+</header>
+
+<div class="verify-shell">
+  <a class="verify-back" href="students.html">← Back to roster</a>
+  <div id="content"></div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>[email protected]</span>
+    <span>Department of Pharmaceutical Sciences</span>
+  </div>
+</footer>
+
+<script src="js/students-data.js"></script>
+<script>
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get("id");
+  const content = document.getElementById("content");
+
+  function formatDate(ym) {
+    if (!ym) return "Present";
+    const [y, m] = ym.split("-");
+    const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    return months[parseInt(m, 10) - 1] + " " + y;
+  }
+
+  const student = STUDENTS.find((s) => s.id === id);
+
+  if (!student) {
+    content.innerHTML = `
+      <div class="not-found">
+        <h1>No record found</h1>
+        <p>We couldn't find a verification record matching this link.
+        Please check the link, or contact the department directly to confirm.</p>
+        <p style="margin-top:20px;"><a href="students.html">Browse the full student roster →</a></p>
+      </div>
+    `;
+    document.title = "No record found — F. Khan Lab";
+    return;
+  }
+
+  document.title = student.name + " — Verification Record";
+
+  const achievementsHtml = student.achievements && student.achievements.length
+    ? `<div class="cert-row">
+         <div class="cert-label">Achievements</div>
+         <div class="cert-value">
+           <ul class="cert-achievements">
+             ${student.achievements.map((a) => `<li>${a}</li>`).join("")}
+           </ul>
+         </div>
+       </div>`
+    : "";
+
+  const outcomeHtml = student.outcome
+    ? `<div class="cert-row">
+         <div class="cert-label">Current position</div>
+         <div class="cert-value">${student.outcome}</div>
+       </div>`
+    : "";
+
+  content.innerHTML = `
+    <div class="certificate">
+      <svg class="certificate-watermark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="30" cy="30" r="14" stroke="#1C2B39" stroke-width="1" fill="none"/>
+        <circle cx="65" cy="40" r="10" stroke="#1C2B39" stroke-width="1" fill="none"/>
+        <circle cx="45" cy="70" r="12" stroke="#1C2B39" stroke-width="1" fill="none"/>
+        <line x1="40" y1="35" x2="58" y2="38" stroke="#1C2B39" stroke-width="1"/>
+        <line x1="38" y1="40" x2="45" y2="60" stroke="#1C2B39" stroke-width="1"/>
+      </svg>
+
+      <svg class="seal" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="46" fill="none" stroke="#9C3B2C" stroke-width="2"/>
+        <circle cx="50" cy="50" r="38" fill="none" stroke="#9C3B2C" stroke-width="1"/>
+        <path id="sealCircle" d="M 50 12 A 38 38 0 1 1 49.9 12" fill="none"/>
+        <text font-family="IBM Plex Mono, monospace" font-size="7.5" fill="#9C3B2C" letter-spacing="2">
+          <textPath href="#sealCircle" startOffset="2%">CONFIRMED RESEARCH RECORD</textPath>
+        </text>
+        <text x="50" y="55" text-anchor="middle" font-family="Fraunces, serif" font-size="13" fill="#9C3B2C" font-weight="600">✓</text>
+      </svg>
+
+      <p class="certificate-eyebrow">Verification record</p>
+      <h1>${student.name}</h1>
+
+      <div class="cert-row">
+        <div class="cert-label">Role</div>
+        <div class="cert-value">${student.role}</div>
+      </div>
+      <div class="cert-row">
+        <div class="cert-label">Project</div>
+        <div class="cert-value emphasis">${student.project}</div>
+      </div>
+      <div class="cert-row">
+        <div class="cert-label">Duration</div>
+        <div class="cert-value">${formatDate(student.start)} – ${formatDate(student.end)}</div>
+      </div>
+      <div class="cert-row">
+        <div class="cert-label">Supervisor</div>
+        <div class="cert-value">Dr. Ferdous Khan, Associate Professor, Department of Pharmaceutical Sciences</div>
+      </div>
+      <div class="cert-row">
+        <div class="cert-label">Summary</div>
+        <div class="cert-value">${student.summary}</div>
+      </div>
+      ${outcomeHtml}
+      ${achievementsHtml}
+
+      <div class="cert-footer">
+        <span class="cert-id">RECORD ID: ${student.id}</span>
+        <span class="cert-note">This record confirms the student's research involvement with this lab. For further confirmation, please contact the department directly.</span>
+      </div>
+    </div>
+    <button class="print-btn" onclick="window.print()">Print / save as PDF</button>
+  `;
+})();
+</script>
+</body>
+</html>

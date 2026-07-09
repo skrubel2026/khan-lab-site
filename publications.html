@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications &amp; Output — F. Khan Lab</title>
+<meta name="description" content="Publications, conference presentations, and awards from Dr. Ferdous Khan's research lab.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-mark"><strong>F. Khan Lab</strong> · Dept. of Pharmaceutical Sciences</div>
+    <nav class="masthead-nav">
+      <a href="index.html">Home</a>
+      <a href="students.html">Students</a>
+      <a href="publications.html" class="active">Publications</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="hero" style="padding-top:44px; padding-bottom:28px;">
+    <p class="eyebrow">Output</p>
+    <h1 style="font-size: clamp(1.8rem, 4vw, 2.6rem);">Publications &amp; recognition</h1>
+    <p class="role-line">
+      Papers, conference presentations, and awards produced by the lab.
+      Where a listing involves a current or former student, their name
+      links to their verification record.
+    </p>
+  </section>
+
+  <section class="block" style="border-bottom:none; padding-top:20px;">
+    <div class="roster-controls">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="journal">Journal articles</button>
+      <button class="filter-btn" data-filter="conference">Conference</button>
+      <button class="filter-btn" data-filter="award">Awards</button>
+    </div>
+
+    <div class="pub-list" id="pubList"></div>
+    <p class="empty-state" id="pubEmpty" style="display:none;">No entries in this category yet.</p>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>[email protected]</span>
+    <span>Department of Pharmaceutical Sciences</span>
+  </div>
+</footer>
+
+<script src="js/students-data.js"></script>
+<script src="js/publications-data.js"></script>
+<script src="js/publications.js"></script>
+</body>
+</html>
