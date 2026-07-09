@@ -33,18 +33,18 @@
 const STUDENTS = [
   {
     id: "example-alumni-2023",
-    name: "Example Student (replace me)",
+    name: "Iftekhar Parvez Enan",
     status: "alumni",
-    role: "MS Research Student",
-    project: "Screening of plant-derived compounds for antimicrobial activity",
+    role: "Undergraduate Thesis Student",
+    project: "Screening of spondias mombin for lipid lowering activity",
     start: "2021-09",
     end: "2023-06",
-    outcome: "PhD candidate, [University Name]",
+    outcome: "MS Student",
     summary:
-      "Worked on isolating and characterizing bioactive compounds from local plant extracts, with a focus on antimicrobial screening against resistant bacterial strains. Contributed to method development for the lab's extraction protocol.",
+      "Worked on characterizing bioactive compounds from local plant extracts, with a focus on lipid lowering screening against resistant bacterial strains. Contributed to method development for the lab's extraction protocol.",
     achievements: [
-      "Co-authored paper in [Journal Name] (2023)",
-      "Best Poster Award, [Conference Name] 2022"
+      "Co-authored paper in [Advancements in Life Sciences] (2026)",
+      "Poster Award, [Conference Name] 2026"
     ]
   },
   {
