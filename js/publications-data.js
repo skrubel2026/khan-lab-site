@@ -29,13 +29,13 @@
 
 const PUBLICATIONS = [
   {
-    title: "Example: Antimicrobial screening of endemic plant extracts against resistant bacterial strains",
-    authors: "Rahman, A., Khan, F.",
-    studentIds: ["example-alumni-2023"],
-    venue: "[Journal Name]",
-    year: "2023",
+    title: "Cinnamic acid ameliorates diet-induced hyperlipidemia in Wistar rats through antioxidant and gene expression modulatory effects",
+    authors: "Kuddus SA, Fatema R, Sifat AM, Tamanna T, Islam F, Kamal NM, Karim R, Enan IP, Alam MA, Khan F.",
+    studentIds: ["22120261856"],
+    venue: "[Advancements in Life Sciences]",
+    year: "2026",
     type: "journal",
-    link: ""
+    link: "https://submission.als-journal.com/index.php/ALS/article/view/3958"
   },
   {
     title: "Example: Best Poster Award — [Conference Name] 2022",
