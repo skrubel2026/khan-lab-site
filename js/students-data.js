@@ -32,13 +32,13 @@
 
 const STUDENTS = [
   {
-    id: "22120261856",
+    id: "1912668049",
     name: "Iftekhar Parvez Enan",
     status: "alumni",
     role: "Undergraduate Thesis Student",
     project: "Screening of spondias mombin for lipid lowering activity",
-    start: "2021-09",
-    end: "2023-06",
+    start: "2024-09",
+    end: "2026-03",
     outcome: "MS Student",
     summary:
       "Worked on characterizing bioactive compounds from local plant extracts, with a focus on lipid lowering screening against resistant bacterial strains. Contributed to method development for the lab's extraction protocol.",
