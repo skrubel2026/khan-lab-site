@@ -31,7 +31,7 @@ const PUBLICATIONS = [
   {
     title: "Cinnamic acid ameliorates diet-induced hyperlipidemia in Wistar rats through antioxidant and gene expression modulatory effects",
     authors: "Kuddus SA, Fatema R, Sifat AM, Tamanna T, Islam F, Kamal NM, Karim R, Enan IP, Alam MA, Khan F.",
-    studentIds: ["22120261856"],
+    studentIds: ["1912668049"],
     venue: "[Advancements in Life Sciences]",
     year: "2026",
     type: "journal",
