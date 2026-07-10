@@ -19,7 +19,8 @@
   - studentIds:  Array of student "id" values (from students-data.js)
                  who worked on this — this links the publication to
                  their verification record automatically. Leave as []
-                 if it's not tied to a specific student.
+                 if it's not tied to a specific student. Can include
+                 more than one id if multiple lab students worked on it.
   - venue:       Journal, conference, or award name.
   - year:        Four-digit year as a string, e.g. "2023".
   - type:        "journal", "conference", or "award" — controls the
@@ -28,7 +29,7 @@
 */
 
 const PUBLICATIONS = [
-{
+  {
     title: "The Constituents of Phyllanthus emblica Fruit Ameliorate Hyperlipidemia Through the Modulation of SREBPs, HMG-CoA Reductase, and LDL Receptor Pathway",
     authors: "Kuddus, S.A., et al., Khan, F.",
     studentIds: ["1621130073"],
@@ -96,26 +97,26 @@ const PUBLICATIONS = [
     authors: "Kuddus, S.A., et al., Khan, F.",
     studentIds: ["1621130073"],
     venue: "Clinical Phytoscience (Springer Nature)",
-    year: "2020", // confirm — inferred from the DOI, not stated explicitly
+    year: "2020",
     type: "journal",
     link: "https://link.springer.com/article/10.1186/s40816-020-00213-9"
   },
   {
     title: "Cinnamic acid ameliorates diet-induced hyperlipidemia in Wistar rats through antioxidant and gene expression modulatory effects",
-    authors: "Kuddus, S.A., et al.",
-    studentIds: ["1621130073"],
+    authors: "Kuddus, S.A., Enan, I.P., et al.",
+    studentIds: ["1621130073", "1912668049"],
     venue: "Advancements in Life Sciences",
-    year: "[confirm year]",
+    year: "2026",
     type: "journal",
     link: "https://www.submission.als-journal.com/index.php/ALS/article/view/3958"
   },
   {
-    title: "[confirm exact title — PDF link only shows a placeholder title]",
+    title: "Effect of polymer concentration on the release of naproxen from enteric coated sustained release tablets",
     authors: "Kuddus, S.A., et al.",
     studentIds: ["1621130073"],
-    venue: "[confirm journal name]",
-    year: "[confirm year]",
+    venue: "J. Bio. Exp. Pharm",
+    year: "2023",
     type: "journal",
     link: "https://www.journalbep.com/hubfs/Articles%20File%20-%20vol1%20issue%201/Article%205.pdf"
-  },
+  }
 ];
