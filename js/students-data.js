@@ -99,8 +99,8 @@ const STUDENTS = [
     achievements: []
   },
   {
-    id: "20100000",
-    name: "Ananna Rahman",
+    id: "2021944649",
+    name: "Rabeya Rahman Ananna",
     status: "current",
     role: "Undergraduate Thesis Student",
     project: "Phytochemical screening of different species of Citrus limon and antidiabetic activity comparison ",
@@ -112,8 +112,8 @@ const STUDENTS = [
     achievements: []
   },
   {
-    id: "20200000",
-    name: "Nahid Hasan",
+    id: "2013953649",
+    name: "Ashraful Islam Nahid",
     status: "current",
     role: "Undergraduate Thesis Student",
     project: "Phytochemical screening of different species of Citrus limon and antidiabetic activity comparison ",
