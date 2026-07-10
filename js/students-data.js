@@ -73,6 +73,58 @@ const STUDENTS = [
     ]
   },
   {
+    id: "2012415649",
+    name: "Sayedul Mursalin Hamim",
+    status: "current",
+    role: "Undergraduate Thesis Student",
+    project: "Phytochemical screening of different species of Citrus limon and antidiabetic activity comparison",
+    start: "2025-07",
+    end: null,
+    outcome: "",
+    summary:
+      "Investigating the antidiabetic effect of different species of Citrus limon and comparison of their antioxidant activity by spectroscopic method.",
+    achievements: []
+  },
+  {
+    id: "2014179649",
+    name: "Samiha Khan Parisha",
+    status: "current",
+    role: "Undergraduate Thesis Student",
+    project: "Phytochemical screening of different species of Citrus limon and antidiabetic activity comparison ",
+    start: "2025-07",
+    end: null,
+    outcome: "",
+    summary:
+      "Investigating the antidiabetic effect of different species of Citrus limon and comparison of their antioxidant activity by spectroscopic method.",
+    achievements: []
+  },
+  {
+    id: "20100000",
+    name: "Ananna Rahman",
+    status: "current",
+    role: "Undergraduate Thesis Student",
+    project: "Phytochemical screening of different species of Citrus limon and antidiabetic activity comparison ",
+    start: "2025-07",
+    end: null,
+    outcome: "",
+    summary:
+      "Investigating the antidiabetic effect of different species of Citrus limon and comparison of their antioxidant activity by spectroscopic method.",
+    achievements: []
+  },
+  {
+    id: "20200000",
+    name: "Nahid Hasan",
+    status: "current",
+    role: "Undergraduate Thesis Student",
+    project: "Phytochemical screening of different species of Citrus limon and antidiabetic activity comparison ",
+    start: "2025-07",
+    end: null,
+    outcome: "",
+    summary:
+      "Investigating the antidiabetic effect of different species of Citrus limon and comparison of their antioxidant activity by spectroscopic method.",
+    achievements: []
+  },
+  {
     id: "2211229049",
     name: "Nahrin Hossain Dola",
     status: "current",
