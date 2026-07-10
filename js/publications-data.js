@@ -28,7 +28,7 @@
 */
 
 const PUBLICATIONS = [
-  {
+{
     title: "The Constituents of Phyllanthus emblica Fruit Ameliorate Hyperlipidemia Through the Modulation of SREBPs, HMG-CoA Reductase, and LDL Receptor Pathway",
     authors: "Kuddus, S.A., et al., Khan, F.",
     studentIds: ["1621130073"],
@@ -103,10 +103,19 @@ const PUBLICATIONS = [
   {
     title: "Cinnamic acid ameliorates diet-induced hyperlipidemia in Wistar rats through antioxidant and gene expression modulatory effects",
     authors: "Kuddus, S.A., et al.",
-    studentIds: ["1621130073"],["1912668049"],
+    studentIds: ["1621130073"],
     venue: "Advancements in Life Sciences",
-    year: "2026",
+    year: "[confirm year]",
     type: "journal",
     link: "https://www.submission.als-journal.com/index.php/ALS/article/view/3958"
+  },
+  {
+    title: "[confirm exact title — PDF link only shows a placeholder title]",
+    authors: "Kuddus, S.A., et al.",
+    studentIds: ["1621130073"],
+    venue: "[confirm journal name]",
+    year: "[confirm year]",
+    type: "journal",
+    link: "https://www.journalbep.com/hubfs/Articles%20File%20-%20vol1%20issue%201/Article%205.pdf"
   },
 ];
