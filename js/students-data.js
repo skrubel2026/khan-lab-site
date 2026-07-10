@@ -32,6 +32,31 @@
 
 const STUDENTS = [
   {
+    id: "1621130073",
+    name: "Syed Abdul Kuddus",
+    status: "alumni",
+    role: "MS Research Student",
+    project:
+      "Preparation and evaluation of Metformin hydrochloride sustained release tablets using Methocel K15 M and Kollidon SR as release modifying agents",
+    start: "2017-06",
+    end: "2018-07",
+    outcome: "Laboratory Officer, North South University, Department of Pharmaceutical Sciences",
+    summary:
+      "This study explored the use of a Methocel K15 M and Kollidon SR polymer blend as a release-modifying agent for Metformin hydrochloride sustained-release tablets. These polymers were chosen for being nontoxic, inexpensive, and widely available, with minimal known adverse health or environmental impact — supporting better patient tolerance with a lower risk of side effects.",
+    achievements: [
+      'Antioxidant-rich Tamarindus indica L. leaf extract reduced high-fat diet-induced obesity in rat through modulation of gene expression — Clinical Phytoscience, Springer Nature. <a href="https://link.springer.com/article/10.1186/s40816-020-00213-9" target="_blank" rel="noopener">View paper</a>',
+      'Dillenia indica fruit extract suppressed diet-induced obesity — Current Nutrition & Food Science. <a href="https://www.ingentaconnect.com/content/ben/cnf/2021/00000017/00000004/art00011" target="_blank" rel="noopener">View paper</a>',
+      'Cinnamic acid ameliorates diet-induced hyperlipidemia in Wistar rats through antioxidant and gene expression modulatory effects — Advancements in Life Sciences. <a href="https://www.submission.als-journal.com/index.php/ALS/article/view/3958" target="_blank" rel="noopener">View paper</a>',
+      'The constituents of Phyllanthus emblica fruit ameliorate hyperlipidemia through the modulation of SREBPs, HMG-CoA reductase, and LDL receptor pathway — Scientifica, Wiley, 2025. <a href="https://onlinelibrary.wiley.com/doi/full/10.1155/sci5/7941857" target="_blank" rel="noopener">View paper</a>',
+      'Additional journal publication with the lab. <a href="https://www.journalbep.com/hubfs/Articles%20File%20-%20vol1%20issue%201/Article%205.pdf" target="_blank" rel="noopener">View paper</a>',
+      "Champion, Poster Exhibition — 2nd International Conference on Genomics, Nanotechnology and Bioengineering (ICGNB), North South University, 2022",
+      "Conference poster: Rice bran extract ameliorates dyslipidemia through the modulation of LDL-receptor, ApoA1, and ApoB100 proteins — ICDD, 2022",
+      "Conference poster: Extract of Syzygium cumini seeds can prevent high-fat diet-induced hyperglycemia by controlling GLUT4 gene expression — ICDD, 2022",
+      "Conference poster: Diet-induced adipogenesis in rat can be inhibited by Phyllanthus emblica fruit extract — ICGNB, 2022",
+      "Conference poster: Ethanolic extract of Citrus sinensis peel can ameliorate carbamazepine-induced dyslipidemia in Wistar rats by modulating low-density lipoprotein receptor — ICGNB, 2022"
+    ]
+  },
+  {
     id: "1912668049",
     name: "Iftekhar Parvez Enan",
     status: "alumni",
