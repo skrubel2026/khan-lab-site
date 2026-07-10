@@ -317,6 +317,16 @@ section.block:last-of-type { border-bottom: none; }
   color: var(--ink-soft);
 }
 
+.cta-card .qr-code {
+  width: 92px;
+  height: 92px;
+  margin-top: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 6px;
+  background: var(--bg);
+}
+
 /* ============================================================
    FOOTER
    ============================================================ */
