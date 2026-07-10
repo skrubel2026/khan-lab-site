@@ -29,21 +29,84 @@
 
 const PUBLICATIONS = [
   {
-    title: "Cinnamic acid ameliorates diet-induced hyperlipidemia in Wistar rats through antioxidant and gene expression modulatory effects",
-    authors: "Kuddus SA, Fatema R, Sifat AM, Tamanna T, Islam F, Kamal NM, Karim R, Enan IP, Alam MA, Khan F.",
-    studentIds: ["1912668049"],
-    venue: "[Advancements in Life Sciences]",
-    year: "2026",
+    title: "The Constituents of Phyllanthus emblica Fruit Ameliorate Hyperlipidemia Through the Modulation of SREBPs, HMG-CoA Reductase, and LDL Receptor Pathway",
+    authors: "Kuddus, S.A., et al., Khan, F.",
+    studentIds: ["1621130073"],
+    venue: "Scientifica (Wiley)",
+    year: "2025",
     type: "journal",
-    link: "https://submission.als-journal.com/index.php/ALS/article/view/3958"
+    link: "https://onlinelibrary.wiley.com/doi/full/10.1155/sci5/7941857"
   },
   {
-    title: "Example: Best Poster Award — [Conference Name] 2022",
-    authors: "Rahman, A.",
-    studentIds: ["example-alumni-2023"],
-    venue: "[Conference Name]",
+    title: "Champion, Poster Exhibition",
+    authors: "Kuddus, S.A.",
+    studentIds: ["1621130073"],
+    venue: "2nd International Conference on Genomics, Nanotechnology and Bioengineering (ICGNB), North South University",
     year: "2022",
     type: "award",
     link: ""
-  }
+  },
+  {
+    title: "Rice bran extract ameliorates dyslipidemia through the modulation of LDL-receptor, ApoA1, and ApoB100 proteins",
+    authors: "Kuddus, S.A., et al.",
+    studentIds: ["1621130073"],
+    venue: "ICDD 2022",
+    year: "2022",
+    type: "conference",
+    link: ""
+  },
+  {
+    title: "Extract of Syzygium cumini seeds can prevent high-fat diet-induced hyperglycemia by controlling GLUT4 gene expression",
+    authors: "Kuddus, S.A., et al.",
+    studentIds: ["1621130073"],
+    venue: "ICDD 2022",
+    year: "2022",
+    type: "conference",
+    link: ""
+  },
+  {
+    title: "Diet-induced adipogenesis in rat can be inhibited by Phyllanthus emblica fruit extract",
+    authors: "Kuddus, S.A., et al.",
+    studentIds: ["1621130073"],
+    venue: "ICGNB 2022",
+    year: "2022",
+    type: "conference",
+    link: ""
+  },
+  {
+    title: "Ethanolic extract of Citrus sinensis peel can ameliorate carbamazepine-induced dyslipidemia in Wistar rats by modulating low-density lipoprotein receptor",
+    authors: "Kuddus, S.A., et al.",
+    studentIds: ["1621130073"],
+    venue: "ICGNB 2022",
+    year: "2022",
+    type: "conference",
+    link: ""
+  },
+  {
+    title: "Dillenia indica Fruit Extract Suppressed Diet-induced Obesity",
+    authors: "Kuddus, S.A., et al.",
+    studentIds: ["1621130073"],
+    venue: "Current Nutrition & Food Science",
+    year: "2021",
+    type: "journal",
+    link: "https://www.ingentaconnect.com/content/ben/cnf/2021/00000017/00000004/art00011"
+  },
+  {
+    title: "Antioxidant-rich Tamarindus indica L. leaf extract reduced high-fat diet-induced obesity in rat through modulation of gene expression",
+    authors: "Kuddus, S.A., et al., Khan, F.",
+    studentIds: ["1621130073"],
+    venue: "Clinical Phytoscience (Springer Nature)",
+    year: "2020", // confirm — inferred from the DOI, not stated explicitly
+    type: "journal",
+    link: "https://link.springer.com/article/10.1186/s40816-020-00213-9"
+  },
+  {
+    title: "Cinnamic acid ameliorates diet-induced hyperlipidemia in Wistar rats through antioxidant and gene expression modulatory effects",
+    authors: "Kuddus, S.A., et al.",
+    studentIds: ["1621130073"],["1912668049"],
+    venue: "Advancements in Life Sciences",
+    year: "2026",
+    type: "journal",
+    link: "https://www.submission.als-journal.com/index.php/ALS/article/view/3958"
+  },
 ];
