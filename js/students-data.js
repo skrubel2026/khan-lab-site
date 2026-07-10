@@ -73,16 +73,55 @@ const STUDENTS = [
     ]
   },
   {
-    id: "example-current-2024",
-    name: "Example Student Two (replace me)",
+    id: "2211229049",
+    name: "Nahrin Hossain Dola",
     status: "current",
     role: "Undergraduate Thesis Student",
-    project: "Formulation and stability testing of a novel topical delivery system",
-    start: "2024-02",
+    project: "Role of Ananas comosus to alleviate HFD+STZ induced dyslipidemia in Wistar rat",
+    start: "2026-07",
     end: null,
     outcome: "",
     summary:
-      "Currently investigating formulation stability under varying temperature and humidity conditions, working toward an undergraduate thesis on topical drug delivery systems.",
+      "Investigating the effect of Ananas comosus (pineapple) extract on dyslipidemia induced by a combination of high-fat diet and streptozotocin injection in a Wistar rat model.",
     achievements: []
-  }
+  },
+  {
+    id: "2212229049",
+    name: "Suja Uddin Shakib",
+    status: "current",
+    role: "Undergraduate Thesis Student",
+    project: "Role of Ananas comosus to alleviate HFD+STZ induced dyslipidemia in Wistar rat",
+    start: "2026-07",
+    end: null,
+    outcome: "",
+    summary:
+      "Investigating the effect of Ananas comosus (pineapple) extract on dyslipidemia induced by a combination of high-fat diet and streptozotocin injection in a Wistar rat model.",
+    achievements: []
+  },
+  {
+    id: "2121915649",
+    name: "Raisa Islam Raka",
+    status: "current",
+    role: "Undergraduate Thesis Student",
+    project: "Role of Ananas comosus to alleviate HFD+STZ induced dyslipidemia in Wistar rat",
+    start: "2026-07",
+    end: null,
+    outcome: "",
+    summary:
+      "Investigating the effect of Ananas comosus (pineapple) extract on dyslipidemia induced by a combination of high-fat diet and streptozotocin injection in a Wistar rat model.",
+    achievements: []
+  },
+  {
+    id: "2122105649",
+    name: "Fariya Sultana",
+    status: "current",
+    role: "Undergraduate Thesis Student",
+    project: "Role of Ananas comosus to alleviate HFD+STZ induced dyslipidemia in Wistar rat",
+    start: "2026-07",
+    end: null,
+    outcome: "",
+    summary:
+      "Investigating the effect of Ananas comosus (pineapple) extract on dyslipidemia induced by a combination of high-fat diet and streptozotocin injection in a Wistar rat model.",
+    achievements: []
+  },
 ];
