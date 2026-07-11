@@ -195,6 +195,50 @@ section.block:last-of-type { border-bottom: none; }
   margin-bottom: 30px;
 }
 
+/* Bio section */
+.bio-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-row {
+  display: flex;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line-soft);
+  flex-wrap: wrap;
+}
+
+.bio-row:first-child { padding-top: 0; }
+.bio-row:last-child { border-bottom: none; }
+
+.bio-row .bio-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-brass);
+  width: 160px;
+  flex-shrink: 0;
+  padding-top: 3px;
+}
+
+.bio-row .bio-value {
+  flex: 1;
+  min-width: 240px;
+  font-size: 0.98rem;
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+.bio-row .bio-value p { margin: 0 0 10px; }
+.bio-row .bio-value p:last-child { margin-bottom: 0; }
+
+.bio-row .bio-value .bio-sub {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
 /* Focus area cards */
 .focus-grid {
   display: grid;
