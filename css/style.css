@@ -272,6 +272,109 @@ section.block:last-of-type { border-bottom: none; }
   color: var(--ink);
 }
 
+/* Collapsible research focus accordion */
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.accordion-item {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-panel);
+  overflow: hidden;
+}
+
+.accordion-item.in-progress {
+  border-left: 3px solid var(--accent-brass);
+  background: var(--accent-brass-soft);
+}
+
+.accordion-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 18px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
+.accordion-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-item summary .toggle-icon {
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  color: var(--accent-green);
+  flex-shrink: 0;
+  width: 20px;
+  text-align: center;
+}
+
+.accordion-item.in-progress summary .toggle-icon {
+  color: var(--accent-brass);
+}
+
+.accordion-item[open] summary .toggle-icon.plus {
+  display: none;
+}
+.accordion-item:not([open]) summary .toggle-icon.minus {
+  display: none;
+}
+
+.accordion-item summary .eyebrow-tag {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 400;
+  margin-right: auto;
+  margin-left: 14px;
+}
+
+.accordion-body {
+  padding: 0 22px 20px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.accordion-body p.subhead {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 16px 0 8px;
+}
+
+.accordion-body p.subhead:first-child {
+  margin-top: 16px;
+}
+
+.accordion-body ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.accordion-body li {
+  margin-bottom: 8px;
+  font-size: 0.94rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+.accordion-body li strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 /* CTA cards */
 .cta-grid {
   display: grid;
