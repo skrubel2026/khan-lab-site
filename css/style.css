@@ -2,18 +2,18 @@
    DESIGN TOKENS
    ============================================================ */
 :root {
-  --bg: #F8F6F1;
-  --bg-panel: #F1ECE0;
-  --ink: #1C2B39;
-  --ink-soft: #52626F;
-  --ink-faint: #8A93A0;
-  --accent-green: #2F5233;
-  --accent-green-soft: #E4E9DE;
-  --accent-brass: #96703F;
-  --accent-brass-soft: #EFE4D2;
-  --accent-seal: #9C3B2C;
-  --line: #DCD5C4;
-  --line-soft: #EAE5D8;
+  --bg: #FFFFFF;
+  --bg-panel: #EAF2FB;
+  --ink: #16283F;
+  --ink-soft: #4A6B8C;
+  --ink-faint: #8CA3B8;
+  --accent-green: #1D5FA3;
+  --accent-green-soft: #DCEAF7;
+  --accent-brass: #2E6E93;
+  --accent-brass-soft: #E1EEF5;
+  --accent-seal: #16283F;
+  --line: #D7E4F0;
+  --line-soft: #E9F1F8;
   --radius: 3px;
 
   --font-display: "Fraunces", "Iowan Old Style", serif;
